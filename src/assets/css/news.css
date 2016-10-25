@@ -1,0 +1,16 @@
+.news-nav{height: 50px;line-height: 50px;font-size: 1.6rem;}
+.news-nav i{margin: 0 5px;}
+
+.news-box{}
+.news-box .comefrom{text-align:right;margin: 20px;}
+.news-box .news-header{font-size: 2.4rem;margin: 30px 0;text-align: center;}
+.news-box .news-sub{text-align: center;}
+.news-text{margin: 30px 0;}
+.news-text p{text-indent: 25px;}
+.news-img{text-align: center;margin:30px 0;}
+
+.text-r{text-align: right;}
+
+@media (max-width:640px) {
+    .news-text{padding: 0 10px;}
+}
