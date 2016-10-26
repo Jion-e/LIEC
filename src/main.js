@@ -19,7 +19,9 @@ Vue.use(Element)
 import './assets/css/bootstrap.min.css'
 import './assets/css/mislider.css'
 import './assets/css/mislider-skin-cameo.css'
+import './assets/css/form.css'
 import './assets/css/index.css'
+
 
 
 const router = new VueRouter({

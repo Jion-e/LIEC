@@ -7,7 +7,7 @@ export const lawsNews = state => state.news.allNews.filter(item => item.mType ==
 
 //信用动态新闻按照发布事件降序排序并且限制5条
 export const creditNewsLimit = state => {
-  const count = 5
+  const count = 6
   const filterNews = state.news.allNews.filter(item => item.mType == '0')
 
   const sortNews = filterNews.sort((a, b) => {
@@ -22,7 +22,7 @@ export const creditNewsLimit = state => {
 
 //信用动态新闻按照发布事件降序排序并且限制5条
 export const lawsNewsLimit = state => {
-  const count = 5
+  const count = 6
   const filterNews = state.news.allNews.filter(item => item.mType == '1')
 
   const sortNews = filterNews.sort((a, b) => {

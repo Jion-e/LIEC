@@ -3,9 +3,9 @@
     <header class="header">
         <div class="header-top clearfix">
             <p class="header-top-box">
-                <a href="login.html">登录</a>
+                <router-link to="/login">登录</router-link>
                 <em>|</em>
-                <a href="register.html">注册</a>
+                <router-link to="/register">注册</router-link>
             </p>
         </div>
         <div class="header-mid clearfix">
@@ -27,11 +27,14 @@
                 </div>
                 <div class="collapse navbar-collapse site-navbar" id="navigation1">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item-active"><a href="/" class="active">首页</a></li>
-                        <li><a href="index.html">信用动态</a></li>
+                        <li class="nav-item-active">
+                          <router-link to="/" class="active">首页</router-link></li>
+                        <li><router-link to="/">信用动态</router-link></li>
+                        <li><router-link to="/">政策法规</router-link></li>
+                        <li><router-link to="/">行业数据</router-link></li>
+                        <!-- <li><a href="index.html">信用动态</a></li>
                         <li><a href="index.html">政策法规</a></li>
-                        <li><a href="index.html">行业数据</a></a>
-                        </li>
+                        <li><a href="index.html">行业数据</a></a></li> -->
                     </ul>
                 </div>
             </nav>

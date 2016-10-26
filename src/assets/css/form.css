@@ -9,11 +9,11 @@ button:hover,input[type=button]:hover,input[type=submit]:hover{color:#fff;backgr
 .wrapper{width: 100%;margin-top: 0;padding: 5px;}
 /* 表单样式 */
 label.error{display: inline-block;margin-left: 5px;color:#999;}
-form{width:600px;margin:50px auto;padding:30px 20px;box-shadow:0 0 8px #999;border-radius: 3px;}
+.form{width:600px;margin:50px auto;padding:30px 20px;box-shadow:0 0 8px #999;border-radius: 3px;}
 .form-inline .form-item{margin-bottom:10px;}
 .form-inline .form-item .form-lable{display:inline-block;width:100px;text-align: right;
     margin-right: 10px;}
-.form-inline .form-item .form-text{display:inline-block;width:300px;}
+.form-inline .form-item .form-text{display:inline-block;width:300px;padding-left: 5px;}
 .form-inline .item-diff{margin-left: 110px;}
 
 /* 注册按钮 */

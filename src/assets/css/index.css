@@ -37,7 +37,7 @@ ul,ol{list-style: none;padding: 0;}
 .search-form-block p a.current b,.search-form-block p a:hover b {width:0; height:0;border-color:#01559E transparent transparent;border-style:solid; border-width:8px 8px 0;display:inline-block;position:absolute; bottom:-6px; text-align:center; left:36%;}
 .search-form-block form{ width:90%; margin:0 auto;}
 .search-form-block form input{ border:1px solid #d1d1d1; background:#fff; width:82%; padding-left:15px; padding:6px 0 6px 15px; height:41px;color:#999; border-radius:6px 0 0 6px; display:inline; float:left; font-size:14px; outline:none;}
-.search-form-block form button{ background:#01559E;border-radius:0 6px 6px 0; height:41px; line-height:41px; width:15%; float:left; border:0; font-size:20px; color:#fff; cursor:pointer; font-family:"微软雅黑"; font-weight:bold;}
+.search-form-block form button{ background:#01559E;border-radius:0 6px 6px 0; height:41px; width:15%; float:left; border:0; font-size:20px; color:#fff; cursor:pointer; font-family:"微软雅黑"; font-weight:bold;}
 .search-form-block form button:hover{background:#01559E;}
 
 /*** 主体内容 ***/
