@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-header></v-header>
-    <router-view></router-view>
+    <router-view keep-alive></router-view>
     <v-footer></v-footer>
   </div>
 </template>
@@ -11,6 +11,13 @@
   import vFooter from './components/v-footer.vue'
   export default {
     name: 'app',
+    watch: {
+      '$route'(to, from){
+        if(to.path === '/'){
+          console.log('s');
+        }
+      }
+    },
     components: {vHeader, vFooter}
   };
 </script>

@@ -55,6 +55,14 @@ ul,ol{list-style: none;padding: 0;}
 .main .main-left .newsItemBox .newsItemCont a{color:#999;}
 .main .main-left .newsItemBox .newsItemCont a:hover{color:#000;text-decoration: underline;}
 
+/*** 覆盖行业 ***/
+.homePage .swiper-container{padding-top: 40px;}
+.homePage .swiper-container .swiper-slide .moreBg{transform: scale(1.2);transition: transform .3s ease}
+.homePage .swiper-container .swiper-btn{margin-top: -15px;background: none;font-size: 2.3em;color: rgba(111, 104, 104, 0.61);}
+.homePage .swiper-container .swiper-button-prev{left: 5px;}
+@media (max-width: 650px) {
+  .homePage .swiper-container .swiper-btn{font-size: 2em;margin-top: -10px;}
+}
 /** 新闻焦点图 **/
 .main .roll-pic{width: 715px;height: 136px;overflow: hidden;}
 .left-hander,.right-hander{display:block;width:30px;height:48px;color:#fff;font-size:18px;text-align:center;line-height:48px;cursor:pointer;background:#000;background-color:rgba(0,0,0,.5);filter:alpha(opacity=50);z-index:9}
@@ -122,8 +130,9 @@ ul,ol{list-style: none;padding: 0;}
 
 .main .business-data{width: 100%;margin-top: 10px;margin-bottom: 20px;overflow: hidden;}
 .main .business-data .echartsBox{margin-top: 10px;}
-.main .business-data .echartsBox div{float: left;width: 450px;height: 400px;}
+#echartsMap, #echartsTable{float: left;width: 450px;height: 400px;}
 .main .business-data .echartsBox div:first-child{margin-right: 50px;}
+
 
 #shareHover{position: relative;border-bottom: 0;}
 .share-icon-box {display: none;position: absolute;top:60px;left: 0;width: 100%;padding-top: 10px;border: 1px solid #ccc;background: #fff;}

@@ -21,18 +21,20 @@
                     </ol>
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <a href="news/news_15.html" target="_blank">
-                                <img src="../../assets/img/news_15_4.jpg" alt="信用轻工">
-                            </a>
+                          <router-link to="/newsView/1477560662">
+                              <img src="../../assets/img/news_15_4.jpg" alt="信用轻工">
+                          </router-link>
                             <div class="carousel-caption">
-                                <a href="news/news_15.html" target="_blank">信用轻工</a>
+                              <router-link to="/newsView/1477560662">信用轻工</router-link>
                             </div>
                         </div>
 
                         <div class="item">
-                            <a href="news/news_3.html" target="_blank"><img src="../../assets/img/news3.jpg" alt="信用无价"></a>
+                          <router-link to="/newsView/1477560973">
+                            <img src="../../assets/img/news3.jpg" alt="信用无价">
+                          </router-link>
                             <div class="carousel-caption">
-                                <a href="news/news_3.html" target="_blank">信用无价</a>
+                              <router-link to="/newsView/1477560973">信用无价</router-link>
                             </div>
                         </div>
                     </div>
@@ -50,12 +52,21 @@
             <div class="newsItemBox">
                 <ul>
                     <li>
-                        <p class="newsItemTitle"><a href="news/news_15.html" target="_blank">信用轻工</a></p>
-                        <p class="newsItemCont currentNews"><a href="news/news_15.html" target="_blank">中国轻工行业企业信用数据中心由中国轻工业信息中心发起成立，星数科技（北京）有限公司提供技术和运营支持，是中国轻工行业企业信用数据管理、研究的专业机构。</a></p>
+                        <p class="newsItemTitle">
+                          <router-link to="/newsView/1477560662">信用轻工</router-link>
+                          <!-- <a href="news/news_15.html" target="_blank">信用轻工</a>-->
+                        </p>
+                        <p class="newsItemCont currentNews">
+                          <router-link to="/newsView/1477560662">中国轻工行业企业信用数据中心由中国轻工业信息中心发起成立，星数科技（北京）有限公司提供技术和运营支持，是中国轻工行业企业信用数据管理、研究的专业机构。</router-link>
+                        </p>
                     </li>
                     <li>
-                        <p class="newsItemTitle"><a href="news/news_3.html" target="_blank">信用无价</a></p>
-                        <p class="newsItemCont"><a href="news/news_3.html" target="_blank">随着中国加入WTO，“诚信”这个话题火爆起来，许多企业都提出要以“诚信为本”、“诚信经营”，“打造诚信企业”等口号喊得很响亮。</a></p>
+                        <p class="newsItemTitle">
+                          <router-link to="/newsView/1477560973">信用无价</router-link>
+                        </p>
+                        <p class="newsItemCont">
+                          <router-link to="/newsView/1477560973">随着中国加入WTO，“诚信”这个话题火爆起来，许多企业都提出要以“诚信为本”、“诚信经营”，“打造诚信企业”等口号喊得很响亮。</router-link>
+                        </p>
                     </li>
                 </ul>
             </div>

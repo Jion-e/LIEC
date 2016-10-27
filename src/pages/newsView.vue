@@ -66,4 +66,11 @@ export default {
   .news-view__title{text-align: center;margin-bottom: 20px;}
   .news-view__source{text-align: right;font-size: 16px;margin-bottom: 20px;}
   .news-view__date{margin-right: 10px;}
+  @media (max-width: 640px) {
+    .news-view{width: 100%;padding: 10px 5px;margin: 0;}
+    .news-view__title{font-size: 24px;}
+    .news-view__source{text-align: center;}
+    .news-view__cont p{font-size: 14px;text-indent: 28px;}
+    .news-view__cont img{max-width: 100%}
+  }
 </style>

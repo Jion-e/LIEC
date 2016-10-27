@@ -5,7 +5,7 @@
 /**
  * @file 一些通用的样式类和头部脚部等
  */
-.echartsCont .echarts-tooltip{color:rgb(5, 36, 97) !important;}
+/*.echartsCont .echarts-tooltip{color:rgb(5, 36, 97) !important;}*/
  .scroll-title{width:64px;margin:40px auto 0;border-bottom:4px solid #0063ba;line-height:25px}
  .scroll-title a{font-weight:800;font-size:16px}
 

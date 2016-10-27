@@ -1,5 +1,6 @@
 'use strict'
-const Home = resolve => require(['./pages/home.vue'], resolve)
+// const Home = resolve => require(['./pages/home.vue'], resolve)
+const Home = require('./pages/home.vue')
 const NewsView = resolve => require(['./pages/newsView.vue'], resolve)
 const Login = resolve => require(['./pages/login.vue'], resolve)
 const Register = resolve => require(['./pages/register.vue'], resolve)

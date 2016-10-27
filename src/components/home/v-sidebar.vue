@@ -2,7 +2,8 @@
   <!-- 头侧边栏 -->
   <div class="main-sidebar">
     <div class="apply-box">
-        <a href="login.html">点击进入</a>
+        <router-link to="/login">点击进入</router-link>
+        <!-- <a href="login.html">点击进入</a> -->
     </div>
     <div class="recordBox">
         <div class="record-header">

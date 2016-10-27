@@ -4,7 +4,7 @@
 
 <div class="homePage">
     <v-search></v-search>
-    <v-srollbar></v-srollbar>
+    <v-profession></v-profession>
     <!-- 主体内容 -->
     <div class="wrapper">
         <div class="main">
@@ -15,16 +15,7 @@
             <p class="main-bottom-banner">
                 <a href="javascript:void(0)"><img src="../assets/img/banner715.jpg" alt=""></a>
             </p>
-            <!-- 行业数据 -->
-            <div class="business-data">
-                <div class="titleBox">
-                    <h4 class="list-title"><a href="#">行业数据</a></h4>
-                </div>
-                <div class="echartsBox">
-                    <div id="echartsMap"></div>
-                    <div id="echartsTable"></div>
-                </div>
-            </div>
+            <v-echart></v-echart>
             <v-units></v-units>
         </div>
         <div class="alert-box">
@@ -43,11 +34,12 @@
 
 import vNewsList from '../components/home/v-newsList.vue'
 import vSearch from '../components/home/v-search.vue'
-import vSrollbar from '../components/home/v-srollbar.vue'
+import vProfession from '../components/home/v-profession.vue'
 import vUnits from '../components/home/v-units.vue'
 import vScrollNews from '../components/home/v-scrollNews.vue'
 import vScrollPic from '../components/home/v-scrollPic.vue'
 import vSidebar from '../components/home/v-sidebar.vue'
+import vEchart from '../components/home/v-echart.vue'
 export default {
     data() {
       return {};
@@ -81,7 +73,7 @@ export default {
         }
     },
     components: {
-        vNewsList, vSearch, vSrollbar, vUnits, vSidebar, vScrollNews, vScrollPic
+        vNewsList, vSearch, vProfession, vUnits, vSidebar, vScrollNews, vScrollPic, vEchart
     }
 };
 
